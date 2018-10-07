@@ -1,0 +1,187 @@
+%-------------------------
+% Resume in Latex
+% Author : Jainam Jhaveri
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemTwo}[2]{
+  \item {
+    #1 \hfill \textit{\small #2}
+    \vspace{-5pt}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$} 
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://erjainam.com/}{\Large Jainam Jhaveri}} & Email : \href{mailto:engineerjainam@gmail.com}{engineerjainam@gmail.com}\\
+  \href{https://erjainam.com/}{https://www.erjainam.com} & 
+  \href {https://github.com/JainamJhaveri}{\faGithub}								 		 					 %-- github --%
+  \href {https://stackoverflow.com/users/4151080/jainam-jhaveri/}{\faStackOverflow} 		 %-- stackoverflow --%
+  \href {https://www.linkedin.com/in/jainamjhaveri/}{\faLinkedin}											 %-- linkedIn --%							
+  \href {https://twitter.com/erjainam/}{\faTwitter}		 														 %-- twitter --%
+  \\
+\end{tabular*}
+
+%-----------SUMMARY-----------------
+\section{Summary}
+I would like to work in a challenging environment where I solve some real world problems using the power of code.
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Jarvis Technolabs}{Gujarat, India}
+      {Co-founder, Android developer, Web developer}{July. 2017 - Present}
+      \resumeItemListStart
+		\resumeItem{Content Office}
+          {Working as an android developer, also on cloud functions and web admin panel (\textit{Angular 6+, Node.js, Firebase}) for this instagram planner application \textit{since Nov. 2017 till present} and following standard agile method for development with Slack, Jira, CI/CD and code reviews.}
+		\resumeItem{POS System}
+		{Developed a POS android application from \textit{July. 2017 to Dec. 2017.} It's basically a simple, easy-to-use accounting app that is a supplement to web-based POS system which is used for managing sales bills, stock, purchases, requisitions, payments and viewing different reports.}
+		\resumeItem{Community Newsletter App}
+          {Managed 2 developers for a community's newsletter application on android}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Truskills Solutions Pvt. Ltd.}{Gujarat, India}
+      {Web Developer Intern, Team Lead}{Dec. 2017 - Jun. 2017}      
+      \resumeItemListStart
+        \resumeItem{Live Exams}
+          {Developed a web application for students to give exam and check results and rankings. Also created modules for teacher to manage exams, check reports and monitor students when they are giving exam. \\
+          \textit{Tech stack}: Angular 4+, MongoDB, Node.js, Socket.io, Android, Flashphoner, CCAvenue, AWS EC2 and AWS S3.}\\
+		\resumeItem{Live Exams and Truteach}
+          {Managed a team of 10 interns to continue development of products that we worked on during our last semester's internship. It included daily standups, task planning and work reviews. I was also involved in interview process of around 50 applicants.}
+	\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------------
+\section{Certifications}
+	\resumeSubHeadingListStart
+	    \resumeItemTwo{ \href{https://www.credential.net/tpnw8uwt?key=f736295c97393afc7befc0bd4b91ad9512103fd3991cf371a5bfbc5cb3c06431} {Associate Android Developer}} {Jun. 2018}\\
+	    \resumeItemTwo{Minor Specialization In Marketing}  {July. 2015 -- Jun. 2017}
+	\resumeSubHeadingListEnd
+	
+	
+%-----------PERSONAL PROJECTS-----------------
+\section{Personal Projects}
+  \resumeSubHeadingListStart
+    \resumeItem{\href{https://play.google.com/store/apps/details?id=com.erjainam.tictactoe.release}{Tic Tac Toe}}
+	{Simple AI based 1P, 2P tic-tac-toe game in android}
+  \resumeSubHeadingListEnd
+
+	
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Institute of Technology, Nirma University}{Gujarat, India}
+      {B.Tech in Computer Engineering;  GPA: (8.50/10)}{ July. 2013 -- Jun. 2017}
+  \resumeSubHeadingListEnd
+	
+	
+%-----------ACADEMIC PROJECTS-----------------
+\section{Academic Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/JainamJhaveri/Chess}{Chess with AI}}
+	{1P chess made in Java. Implemented minimax algorithm with alpha-beta pruning on bitboards.}
+    \resumeSubItem {\href {https://github.com/JainamJhaveri/LetsChat} {Lets Chat}}
+	{Android chat application that connects nearby users. Real-time messaging done using socket.io, node.js.}
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Languages}{
+      {\textit{\small Proficient}}: Kotlin, Java
+      {\textit{\small Intermediate}}: Typescript, Shell, Python, C}
+    \resumeSubItem {Toolkit/Libraries}
+		{Dagger, Retrofit, Room, Firebase, Rx, Git, Fastlane, CI/CD}
+  \resumeSubHeadingListEnd
+
+		
+%-----------NOTEWORTHY EXTRA CURRICULARS-----------------
+\section{Noteworthy Extra Curriculars}
+  \resumeSubHeadingListStart
+	    \resumeItemTwo{Was a part of 15 member organizing team for initiating, conducting days celebration at the institute} {3\textsuperscript{rd} year}
+		\resumeItemTwo{Played individual chess tournament and stood 5\textsuperscript{th} at institute level} {3\textsuperscript{rd} year}
+		\resumeItemTwo{\href{http://yuvadlccampaign.blogspot.com/}{Led a team as a student coordinator for DLC to impart computer ed. to municipal school students}} {2\textsuperscript{nd} year}
+	    \resumeItemTwo{Managed a team in cricket tournament and won the cup} {2\textsuperscript{nd} year}
+  \resumeSubHeadingListEnd
+
+%-----------HOBBIES-----------------
+\section{Hobbies}
+Cricket, Chess, Table Tennis, listening retro songs, solving rubik's cube
+
+%-------------------------------------------
+\end{document}
